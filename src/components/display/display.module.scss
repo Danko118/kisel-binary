@@ -1,0 +1,47 @@
+.disp {
+    width: 300px;
+    height: 550px;
+
+    margin: 0 auto;
+    
+    position: relative;
+
+    & :nth-child(1) {
+        top: 0;
+        left: 90px;
+    }
+
+    & :nth-child(2) {
+        top: 90px;
+        left: 180px;
+        transform: rotate(90deg);
+    }
+
+    & :nth-child(3) {
+        top: 255px;
+        left: 180px;
+        transform: rotate(90deg);
+    }
+
+    & :nth-child(4) {
+        top: 345px;
+        left: 90px;
+    }
+
+    & :nth-child(5) {
+        top: 255px;
+        left: 0px;
+        transform: rotate(90deg);
+    }
+
+    & :nth-child(6) {
+        top: 90px;
+        left: 0px;
+        transform: rotate(90deg);
+    }
+
+    & :nth-child(7) {
+        top: 175px;
+        left: 90px;
+    }
+}
