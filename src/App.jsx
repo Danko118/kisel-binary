@@ -40,7 +40,7 @@ function App() {
         setStates={setStates}
       />
 
-      <h1>b`0{States.map((state) => (state.active? 0 : 1)).reverse()}`</h1>
+      <h1>b`1{States.map((state) => (state.active? 0 : 1)).reverse()}`</h1>
     </div>
   )
 }

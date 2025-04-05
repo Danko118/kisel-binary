@@ -23,3 +23,18 @@
     filter: brightness(0.8);
 }
 
+@media screen and (max-width: 550px) {
+    .seg {
+        width: 110px;
+        height: 35px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .seg {
+        width: 70px;
+        height: 20px;
+    }
+    
+}
